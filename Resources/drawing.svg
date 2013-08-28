@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="250"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="drawing.svg"
+   inkscape:export-filename="N:\Tools\Projects\GitHub\davispuh\Source-Code\Resources\image.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
+  <title
+     id="title5355">Drawing</title>
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5317">
+      <stop
+         style="stop-color:#d4ff2a;stop-opacity:1;"
+         offset="0"
+         id="stop5319" />
+      <stop
+         style="stop-color:#d4ff2a;stop-opacity:0;"
+         offset="1"
+         id="stop5321" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5283">
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="0"
+         id="stop5285" />
+      <stop
+         style="stop-color:#0000ff;stop-opacity:0;"
+         offset="1"
+         id="stop5287" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5257"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5259" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5261" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2985" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5283"
+       id="linearGradient5289"
+       x1="152.03304"
+       y1="308.38483"
+       x2="301.52548"
+       y2="308.38483"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect"
+       gradientTransform="translate(-116.16754,597.00015)" />
+    <filter
+       inkscape:collect="always"
+       id="filter5311"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.931483"
+         id="feGaussianBlur5313" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5317"
+       id="radialGradient5323"
+       cx="292.94424"
+       cy="385.6615"
+       fx="292.94424"
+       fy="385.6615"
+       r="80.302048"
+       gradientTransform="matrix(1,0,0,0.91194412,0,33.959764)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       id="filter6133"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood6135"
+         flood-opacity="0.4"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite6137"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur6139"
+         in="composite"
+         stdDeviation="1.5"
+         result="blur" />
+      <feOffset
+         id="feOffset6141"
+         dx="3"
+         dy="3"
+         result="offset" />
+      <feComposite
+         id="feComposite6143"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="211.09148"
+     inkscape:cy="119.30661"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1411"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     width="400px" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Drawing</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:date>2013-08-28</dc:date>
+        <dc:identifier>https://github.com/davispuh/Source-Code/blob/master/Resources/drawing.svg</dc:identifier>
+        <dc:source>https://github.com/davispuh/Source-Code/blob/master/Resources/drawing.svg</dc:source>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Screen"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-802.36218)"
+     style="display:inline">
+    <rect
+       style="opacity:0.65917604;fill:url(#linearGradient5289);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5311)"
+       id="box"
+       width="148.49243"
+       height="148.49243"
+       x="36.36549"
+       y="831.13873" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.79400748;fill:url(#radialGradient5323);fill-opacity:1;stroke:#7de000;stroke-opacity:1"
+       id="circle"
+       sodipodi:cx="292.94424"
+       sodipodi:cy="385.6615"
+       sodipodi:rx="79.802048"
+       sodipodi:ry="72.73098"
+       d="m 372.74629,385.6615 c 0,40.16821 -35.72859,72.73098 -79.80205,72.73098 -44.07345,0 -79.80204,-32.56277 -79.80204,-72.73098 0,-40.16821 35.72859,-72.73098 79.80204,-72.73098 44.07346,0 79.80205,32.56277 79.80205,72.73098 z"
+       transform="translate(-124.24876,576.7971)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5337"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion5339"><rect
+           id="rect5341"
+           width="586.89862"
+           height="377.79706"
+           x="5.0507627"
+           y="137.16397" /></flowRegion><flowPara
+         id="flowPara5343" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5345"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(0,752.36218)"><flowRegion
+         id="flowRegion5347"><rect
+           id="rect5349"
+           width="689.9342"
+           height="599.02045"
+           x="-182.83762"
+           y="-196.99506" /></flowRegion><flowPara
+         id="flowPara5351" /></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Text"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#980101;fill-opacity:1;stroke:none;display:inline;font-family:Sans;filter:url(#filter6133)"
+       x="96.974632"
+       y="899.82916"
+       id="text_image"
+       sodipodi:linespacing="125%"
+       inkscape:label="#text_image"
+       transform="translate(0,-802.36218)"><tspan
+         sodipodi:role="line"
+         id="tspan5327"
+         x="96.974632"
+         y="899.82916"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#980101;font-family:Segoe Script;-inkscape-font-specification:Segoe Script"
+         rotate="6.6999998 6.6999998 6.6999998 6.6999998 6.6999998 0">Image</tspan></text>
+  </g>
+</svg>

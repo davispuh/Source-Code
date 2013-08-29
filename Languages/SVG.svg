@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="250" width="300"  version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">  <title>Drawing</title>  <defs>
+    <linearGradient id="linearGradient1" y2="308" spreadMethod="reflect" gradientUnits="userSpaceOnUse"
+      x2="301" gradientTransform="translate(-116,597)" y1="308" x1="152">
+      <stop stop-color="#00F" offset="0" />
+      <stop stop-color="#00F" stop-opacity="0" offset="1" />
+    </linearGradient>
+    <filter id="filter1" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="5" />
+    </filter>
+    <radialGradient id="radialGradient2" gradientUnits="userSpaceOnUse" cy="385" cx="293"
+      gradientTransform="matrix(1,0,0,1,0,34)" r="80">
+      <stop stop-color="#d4ff2a" offset="0" />
+      <stop stop-color="#d4ff2a" stop-opacity="0" offset="1" />
+    </radialGradient>
+    <filter id="filter2" style="color-interpolation-filters:sRGB;">
+      <feFlood result="flood" flood-color="rgb(0,0,0)" flood-opacity="0.4" />
+      <feComposite operator="in" result="composite1" in2="SourceGraphic" in="flood" />
+      <feGaussianBlur result="blur" stdDeviation="1.5" in="composite" />
+      <feOffset result="offset" dx="3" dy="3" />
+      <feComposite operator="over" result="composite2" in2="offset" in="SourceGraphic" />
+    </filter>
+  </defs>
+  <g transform="translate(0,-802)">
+    <rect id="box" opacity="0.66" stroke-linejoin="miter" fill-rule="evenodd" height="149" filter="url(#filter1)"
+      width="149" stroke="#000" stroke-linecap="butt" y="831" x="36" stroke-width="1px" fill="url(#linearGradient1)" />
+    <path id="circle" opacity="0.8"
+      d="m372.75,385.66c0,40.168-35.729,72.731-79.802,72.731s-79.802-32.563-79.802-72.731,35.729-72.731,79.802-72.731,79.802,32.563,79.802,72.731z"
+      transform="translate(-124.24876,576.7971)" stroke="#7de000" fill="url(#radialGradient2)" />
+    <flowRoot style="letter-spacing:0px;word-spacing:0px;" font-weight="normal" xml:space="preserve" font-size="40px"
+      line-height="125%" font-style="normal" font-family="Sans" fill="#000000">      <flowRegion>        <rect y="137" width="587" x="5.0508" height="378" />      </flowRegion>
+    </flowRoot>
+    <flowRoot style="letter-spacing:0px;word-spacing:0px;" line-height="125%" font-weight="normal" xml:space="preserve"
+      font-size="40px" transform="translate(0,752)" font-style="normal" font-family="Sans" fill="#000000">      <flowRegion>        <rect y="-197" width="690" x="-183" height="600" />      </flowRegion>
+    </flowRoot>
+  </g>
+  <g>
+    <text style="letter-spacing:0px;word-spacing:0px;" font-weight="normal" xml:space="preserve" transform="translate(0,-800)"
+      filter="url(#filter2)" font-size="40px" font-style="normal" y="900" x="97" font-family="Sans" line-height="125%"
+      fill="#980101">      <tspan rotate="6.7 6.7 6.7 6.7 6.7 0" font-weight="normal" font-size="56px" font-style="normal"      font-stretch="normal" font-variant="normal" y="900" x="97" font-family="Segoe Script" fill="#980101">Image</tspan>      </text>
+  </g>  <metadata>    <rdf:RDF>      <cc:Work rdf:about="">        <dc:format>image/svg+xml</dc:format>        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />        <dc:title>Drawing</dc:title>        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/" />        <dc:date>2013-08-29</dc:date>      </cc:Work>      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />      </cc:License>    </rdf:RDF>  </metadata>
+</svg>

@@ -5,7 +5,7 @@ Collection of source code examples from various languages.
 
 It can be used to test IDE's syntax highlighting, auto-format, show someone code of some exotic language or do anything else you can imagine.
 
-
+### You can check out [Project page](http://davispuh.github.io/Source-Code)
 
 ## Unlicense
 

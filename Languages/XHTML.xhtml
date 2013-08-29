@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <head>
+    <title>HTML Example</title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="HTML, Example" />
+    <meta name="description" content="This is example HTML page" />
+    <link rel="stylesheet" type="text/css" href="CSS.css" />
+    <style type="text/css">
+      /* <![CDATA[ */
+      #body * {
+        margin: auto; /* Align to middle of page */
+        text-align: center;
+      }
+      .big {
+        font-size: large;
+      }
+      body > div.troll {
+        visibility: hidden;
+      }
+      th, td {
+        border: 2px solid black;
+        padding: 8px;
+      }
+      /* ]]> */
+    </style>
+    <script type="text/javascript" src="JavaScript.js"></script>
+    <script type="text/javascript">
+      // <![CDATA[
+      /**
+       * Find HTML element based on it's ID/
+       *
+       * @param id The ID if element.
+       * @return HTML element.
+       */
+       function getById(id) {
+         return document.getElementById(id);
+       }
+      var timeout = null;
+      function troll() {
+        if (timeout)
+          window.clearTimeout(timeout);
+        getById('troll').style.visibility = "visible";
+        timeout = setTimeout(function() {
+          getById('troll').style.visibility = "hidden"
+        }, 1500);
+        // Prevent link
+        return false;
+      }
+      // ]]>
+    </script>
+  </head>
+  <body id="body" style="background-color: LightCyan">
+    <h1>This is <span style="font-weight: bold;">HTML</span></h1><!-- <== heading of page -->
+    <p class="big"><a href="http://www.w3.org/TR/html5/" onclick="return troll();">HTML</a> is <span id="awesome">awesome!</span></p>
+    <div id="troll" class="troll">Yes, I'm a troll</div>
+    <!--
+           HAHAHAHA
+     -->
+    <script type="text/javascript">
+      // <![CDATA[
+      (function() {
+        "use strict";
+        getById("awesome").style.color = "purple";
+        document.addEventListener("DOMContentLoaded", function() {
+          var img = document.getElementsByTagName("img");
+          for (var i = 0; i < img.length; i++) {
+            img[i].addEventListener("mouseover", function() {
+              this.style.transform = "skewY(15deg)";
+            });
+            img[i].addEventListener("mouseout", function() {
+              this.style.transform = "skewY(0deg)";
+            });
+          }
+        });
+      })();
+      // ]]> 
+    </script>
+    <table style="margin-top:20px" title="Sample table">
+      <thead>
+        <tr><th>Column A</th><th>Column A</th></tr>
+      </thead>
+      <tfoot>
+        <tr><th colspan="2"><a href="git://github.com/davispuh/Source-Code.git">Source</a></th></tr>
+      </tfoot>
+      <tbody>
+        <tr><td>Cell 1</td><td>Cell 2</td></tr>
+        <tr>
+          <td>Cell 3</td>
+          <td>
+            <m:math>
+              <m:mrow>
+                <m:msup>
+                  <m:mfenced>
+                    <m:mrow>
+                      <m:mi>b</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>a</m:mi>
+                    </m:mrow>
+                  </m:mfenced>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>=</m:mo>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>c</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                        <m:mi>b</m:mi>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>c</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>a</m:mi>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div style="width: 70%">
+      <img src="../Resources/image.png" alt="Here should be image" width="600" style="transition: all 1s" />
+      <svg:svg xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="500" style="float:left">
+        <svg:image width="600" height="500" xlink:href="../Resources/drawing.svg" />
+      </svg:svg>
+    </div>
+  </body>
+</html>

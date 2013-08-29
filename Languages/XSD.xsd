@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://github.com/davispuh/Source-Code"
+  xmlns="https://github.com/davispuh/Source-Code">
+
+  <xs:element name="world">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="country" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="country">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="city" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="name" type="CountryName" use="required" />
+      <xs:attribute name="code" type="CountryCode" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="city">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name" />
+        <xs:element ref="land" />
+        <xs:element ref="population" />
+        <xs:group ref="people" />
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:positiveInteger" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="name" type="xs:string" />
+  <xs:element name="land" type="xs:decimal" />
+  <xs:element name="population" type="xs:nonNegativeInteger" />
+
+  <xs:group name="people">
+    <xs:sequence>
+      <xs:element name="artists" type="count" />
+      <xs:element name="musicians" type="count" />
+    </xs:sequence>
+  </xs:group>
+
+  <xs:simpleType name="CountryName">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Russia" />
+      <xs:enumeration value="Canada" />
+      <xs:enumeration value="United States" />
+      <xs:enumeration value="Australia" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="CountryCode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="RU" />
+      <xs:enumeration value="CA" />
+      <xs:enumeration value="US" />
+      <xs:enumeration value="AU" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="count">
+    <xs:restriction base="xs:nonNegativeInteger">
+      <xs:minInclusive value="0" />
+      <xs:maxExclusive value="10000000" />
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

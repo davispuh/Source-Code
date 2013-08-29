@@ -1,0 +1,82 @@
+/*
+
+  CSS
+
+*/
+
+
+*, :root /* Use this for everything */ {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+
+
+strong {
+  font-weight: bolder;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 36px;
+}
+
+h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
+  font-size: 36px;
+}
+
+div > img {
+  border: 0;
+}
+
+span.small {
+  font-size: small;
+}
+
+span#huge {
+  font-size: 5em;
+}
+
+.logo {
+   background-image: url("../Resources/image.png");
+}
+
+.red {
+  color: rgb(255,0,0);
+}
+
+.red:hover { /* when mouse over */
+  color: #AA0000;
+}
+
+a:link    { color: blue;   } /* link haven't been visited */
+a:visited { color: red;    } /* link has been visited     */
+a:active  { color: yellow; } /* when link is clicked      */
+
+.page div > span:first-child
+{
+   float: left;
+} 
+
+q:lang(en) {
+  quotes: "\201C" "\201D";
+}
+
+div+p:first-line, div~p:first-line
+{
+  text-indent: 20px;
+} 
+
+a[href^="git://"] {
+  outline:brown groove;
+  padding: 2px 5px 4px 5px;
+}
+
+img[src$=".gif"] {
+  cursor: crosshair;
+}
+
+div:nth-child(6):after
+{
+  content: 'LOL'
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="XSL.xsl"?>
+<world xmlns="https://github.com/davispuh/Source-Code" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="XSD.xsd">
+  <!--
+    XML is good ;)
+  -->
+  <country name="Russia" code="RU"></country>
+  <country name="Canada" code="CA"></country>
+  <country name="United States" code="US">
+    <city id="1">
+      <name>Los Angeles</name>
+      <land>1213.850</land>
+      <population>3792621</population>
+      <artists>303096</artists>
+      <musicians>364120</musicians>
+    </city>
+    <city id="2">
+      <name>New York</name>
+      <land>783.842</land>
+      <population>8175133</population>
+      <artists>368723</artists>
+      <musicians>382600</musicians>
+    </city>
+    <city id="3">
+      <name>Chicago</name>
+      <land>589.571</land>
+      <population>2695598</population>
+      <artists>350170</artists>
+      <musicians>145569</musicians>
+    </city>
+  </country>
+  <country name="Australia" code="AU"></country>
+</world>
